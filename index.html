@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/import.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Titulo de la App -->
+    <div id="titulo">
+        <div id="tituloSection1">
+            <img id="logo" src="assets/img/logo.svg" alt="Logo">
+            <h1>Sorteo de Encuentros</h1>
+        </div>
+        <div id="tituloSection2">
+            <p id="autor">LEO LEGUIZAMÓN</p>
+        </div>
+    </div>
+    <!-- Tarjetas de Carga de la App -->
+    <section id="tarjetas">
+        <div id="cargaDeEquipos">
+            <h2>CARGA <br>LOS EQUIPOS</h2>
+            <form id="form">
+                <label class="etiqueta" for="iconoEquipo">Icono del Equipo:</label>
+                <input class="elemento input" type="text" id="iconoEquipo" placeholder="">
+                <label class="etiqueta" for="nombreEquipo">Nombre del Equipo:</label>
+                <input class="elemento input" type="text" id="nombreEquipo" placeholder="">
+                <input class="elemento" type="button" id="botonCargarEquipo" value="CARGAR EQUIPO">
+            </form>
+        </div>
+        <div id="tablaCargaDeEquipos">
+            <div id="interfazDeCargaSection1">
+                <div id="icono">
+                    <p class="tituloInterfazDeCarga">Ícono</p>
+                </div>
+                <div id="equipo">
+                    <p class="tituloInterfazDeCarga">Equipo</p>
+                </div>
+                <div id="accion">
+                    <p class="tituloInterfazDeCarga">Acción</p>
+                </div>
+            </div>
+            <div id="interfazDeCarga">
+                <div id="interfazDeCargaSection2">
+                    <div id="icono">
+                        <img src="assets/img/logo.svg" alt="Icono del equipo">
+                    </div>
+                    <div id="equipo">
+                        <div class="contenido">
+                            <p>Universidad Nacional de Asunción, Facultad de Derecho y Ciencias Sociales UNA</p>
+                        </div>
+                    </div>
+                    <div id="accion">
+                        <img src="assets/img/delete.svg" alt="Eliminar equipo">
+                    </div>
+                </div>
+                <!-- Más secciones de equipo aquí si es necesario -->
+            </div>
+        </div>
+    </section>
+    <!-- Botón de Acción -->
+    <section id="boton">
+        <input class="elemento" type="button" id="botonRealizarSorteo" value="REALIZAR SORTEO">
+    </section>
+</body>
+
+</html>
